@@ -1,0 +1,14 @@
+{
+	"isRunAtStartup": false,
+	"isAlwaysShowMenuBar": true,
+	"windowPropertiesObj": {
+		"pageUrl": "https://chatgpt.com/auth/login",
+		"boundsObj": {
+			"x": 710,
+			"y": 79,
+			"width": 500,
+			"height": 700
+		}
+	},
+	"desktopFilePath": "/var/lib/snapd/desktop/applications/chatgpt-desktop_chatgpt-desktop.desktop"
+}

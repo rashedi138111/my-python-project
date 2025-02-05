@@ -1,0 +1,72 @@
+{
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/Local Folders" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "Lokale Ordner",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/Local Folders/Trash.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 260,
+		"folderName" : "Trash",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/Local Folders/Unsent Messages.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 2052,
+		"folderName" : "Outbox",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/pop.gmail.com" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "rashediahmadzia@gmail.com",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/pop.gmail.com/Inbox.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 4100,
+		"folderName" : "Inbox",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/home/schule/snap/thunderbird/common/.thunderbird/w9sm0tou.default/Mail/pop.gmail.com/Trash.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 260,
+		"folderName" : "Trash",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	}
+}

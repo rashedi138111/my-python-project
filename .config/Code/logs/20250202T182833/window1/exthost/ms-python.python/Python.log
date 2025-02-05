@@ -1,0 +1,9 @@
+2025-02-02 18:28:39.116 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-02 18:28:39.116 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-02 18:28:39.116 [info] Experiment 'pythonTestAdapter' is active
+2025-02-02 18:28:39.116 [info] Native locator: Refresh started
+2025-02-02 18:28:39.116 [info] Native locator: Refresh started
+2025-02-02 18:28:42.263 [info] Python interpreter path: /usr/bin/python3
+2025-02-02 18:28:42.575 [info] Native locator: Refresh finished in 4971 ms
+2025-02-02 18:28:44.208 [info] Starting Pylance language server.
+2025-02-02 18:32:20.436 [info] CreateEnv Trigger - Workspace not found for /home/schule/Desktop/New Folder/shop-manager.py

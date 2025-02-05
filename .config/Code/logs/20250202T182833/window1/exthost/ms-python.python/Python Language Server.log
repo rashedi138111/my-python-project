@@ -1,0 +1,27 @@
+2025-02-02 18:28:42.884 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-02 18:28:44.180 [info] [Info  - 6:28:44 PM] (64721) Server root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 18:28:44.182 [info] [Info  - 6:28:44 PM] (64721) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-02 18:31:35.546 [info] [Info  - 6:31:35 PM] (64721) Starting service instance "<default>"
+2025-02-02 18:31:35.720 [info] [Info  - 6:31:35 PM] (64721) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 18:31:35.720 [info] [Info  - 6:31:35 PM] (64721) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 18:31:35.720 [info] [Info  - 6:31:35 PM] (64721) No include entries specified; assuming /<default workspace root>
+2025-02-02 18:31:35.723 [info] [Info  - 6:31:35 PM] (64721) Auto-excluding **/node_modules
+2025-02-02 18:31:35.723 [info] [Info  - 6:31:35 PM] (64721) Auto-excluding **/__pycache__
+2025-02-02 18:31:35.723 [info] [Info  - 6:31:35 PM] (64721) Auto-excluding **/.*
+2025-02-02 18:31:35.773 [info] [Info  - 6:31:35 PM] (64721) Assuming Python version 3.12.3.final.0
+2025-02-02 18:31:36.166 [info] [Error - 6:31:36 PM] (64721) File or directory "/<default workspace root>" does not exist.
+2025-02-02 18:31:36.173 [info] [Info  - 6:31:36 PM] (64721) No source files found.
+2025-02-02 18:31:37.198 [info] [Info  - 6:31:37 PM] (64721) Background analysis(1) root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 18:31:37.201 [info] [Info  - 6:31:37 PM] (64721) Background analysis(1) started
+2025-02-02 19:12:12.370 [info] [Info  - 7:12:12 PM] (64721) Starting service instance "<default>"
+2025-02-02 19:12:12.414 [info] [Info  - 7:12:12 PM] (64721) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 19:12:12.422 [info] [Info  - 7:12:12 PM] (64721) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 19:12:12.422 [info] [Info  - 7:12:12 PM] (64721) No include entries specified; assuming /<default workspace root>
+2025-02-02 19:12:12.422 [info] [Info  - 7:12:12 PM] (64721) Auto-excluding **/node_modules
+2025-02-02 19:12:12.422 [info] [Info  - 7:12:12 PM] (64721) Auto-excluding **/__pycache__
+2025-02-02 19:12:12.423 [info] [Info  - 7:12:12 PM] (64721) Auto-excluding **/.*
+2025-02-02 19:12:12.471 [info] [Info  - 7:12:12 PM] (64721) Assuming Python version 3.12.3.final.0
+2025-02-02 19:12:12.637 [info] [Error - 7:12:12 PM] (64721) File or directory "/<default workspace root>" does not exist.
+2025-02-02 19:12:12.641 [info] [Info  - 7:12:12 PM] (64721) No source files found.
+2025-02-02 19:12:13.587 [info] [Info  - 7:12:13 PM] (64721) Background analysis(2) root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 19:12:13.591 [info] [Info  - 7:12:13 PM] (64721) Background analysis(2) started

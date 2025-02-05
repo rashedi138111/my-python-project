@@ -1,0 +1,108 @@
+2025-02-02 17:30:23.757 [info] Started initializing default profile extensions in extensions installation folder. file:///home/schule/.vscode/extensions
+2025-02-02 17:30:23.994 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/schule/.vscode/extensions Unable to create file 'vscode-userdata:/home/schule/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2025-02-02 17:30:23.994 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/schule/.vscode/extensions
+2025-02-02 17:31:52.875 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-02-02 17:31:52.876 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-02-02 17:38:43.788 [info] Getting Manifest... github.copilot
+2025-02-02 17:38:43.871 [info] Installing extension: github.copilot {"enable":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:38:44.459 [info] Getting Manifest... github.copilot-chat
+2025-02-02 17:38:44.507 [info] Installing extension: github.copilot-chat {"enable":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-02 17:38:49.751 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 2645ms.
+2025-02-02 17:38:50.084 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 4172ms.
+2025-02-02 17:38:50.737 [info] Extracted extension to file:///home/schule/.vscode/extensions/github.copilot-1.261.0: github.copilot
+2025-02-02 17:38:50.757 [info] Renamed to /home/schule/.vscode/extensions/github.copilot-1.261.0
+2025-02-02 17:38:50.785 [info] Extracted extension to file:///home/schule/.vscode/extensions/github.copilot-chat-0.23.2: github.copilot-chat
+2025-02-02 17:38:50.792 [info] Renamed to /home/schule/.vscode/extensions/github.copilot-chat-0.23.2
+2025-02-02 17:38:50.821 [info] Extension installed successfully: github.copilot vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:38:50.822 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:38:50.853 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:45:16.586 [info] Getting Manifest... ms-python.python
+2025-02-02 17:45:16.670 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:45:17.453 [info] Getting Manifest... ms-python.vscode-pylance
+2025-02-02 17:45:17.544 [info] Getting Manifest... ms-python.debugpy
+2025-02-02 17:45:17.660 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-02 17:45:17.660 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-02 17:45:22.898 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 3409ms.
+2025-02-02 17:45:23.766 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 3093ms.
+2025-02-02 17:45:26.195 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2025-02-02 17:45:26.251 [info] Renamed to /home/schule/.vscode/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2025-02-02 17:45:26.361 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:45:27.376 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 3109ms.
+2025-02-02 17:45:28.808 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-python.python-2024.22.2-linux-x64: ms-python.python
+2025-02-02 17:45:28.973 [info] Renamed to /home/schule/.vscode/extensions/ms-python.python-2024.22.2-linux-x64
+2025-02-02 17:45:29.060 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:45:35.618 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-02-02 17:45:36.013 [info] Renamed to /home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1
+2025-02-02 17:45:36.089 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:45:36.090 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:45:36.090 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:45:36.127 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:46:08.360 [info] Getting Manifest... ms-vscode-remote.remote-ssh
+2025-02-02 17:46:08.471 [info] Installing extension: ms-vscode-remote.remote-ssh {"isMachineScoped":false,"donotIncludePackAndDependencies":false,"context":{"skipWalkthrough":true},"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:46:09.029 [info] Getting Manifest... ms-vscode-remote.remote-ssh-edit
+2025-02-02 17:46:09.058 [info] Getting Manifest... ms-vscode.remote-explorer
+2025-02-02 17:46:09.269 [info] Installing extension: ms-vscode-remote.remote-ssh-edit {"isMachineScoped":false,"donotIncludePackAndDependencies":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:46:09.269 [info] Installing extension: ms-vscode.remote-explorer {"isMachineScoped":false,"donotIncludePackAndDependencies":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:46:11.617 [info] Extension signature verification result for ms-vscode.remote-explorer: Success. Executed: true. Duration: 1943ms.
+2025-02-02 17:46:11.650 [info] Extension signature verification result for ms-vscode-remote.remote-ssh-edit: Success. Executed: true. Duration: 1996ms.
+2025-02-02 17:46:11.741 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-vscode.remote-explorer-0.4.3: ms-vscode.remote-explorer
+2025-02-02 17:46:11.765 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0: ms-vscode-remote.remote-ssh-edit
+2025-02-02 17:46:11.780 [info] Renamed to /home/schule/.vscode/extensions/ms-vscode.remote-explorer-0.4.3
+2025-02-02 17:46:11.782 [info] Renamed to /home/schule/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.87.0
+2025-02-02 17:46:11.823 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:46:11.932 [info] Extension signature verification result for ms-vscode-remote.remote-ssh: Success. Executed: true. Duration: 2075ms.
+2025-02-02 17:46:12.124 [info] Extracted extension to file:///home/schule/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1: ms-vscode-remote.remote-ssh
+2025-02-02 17:46:12.137 [info] Renamed to /home/schule/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1
+2025-02-02 17:46:12.180 [info] Extension installed successfully: ms-vscode.remote-explorer vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:46:12.181 [info] Extension installed successfully: ms-vscode-remote.remote-ssh-edit vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:46:12.181 [info] Extension installed successfully: ms-vscode-remote.remote-ssh vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:46:12.248 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-02 17:47:47.877 [info] Getting Manifest... github.codespaces
+2025-02-02 17:47:47.962 [info] Installing extension: github.codespaces {"isMachineScoped":false,"donotIncludePackAndDependencies":false,"context":{"skipWalkthrough":true},"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/schule/.vscode/extensions/extensions.json","path":"/home/schule/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-02 17:47:50.203 [info] Extension signature verification result for github.codespaces: Success. Executed: true. Duration: 1363ms.
+2025-02-02 17:47:50.536 [info] Extracted extension to file:///home/schule/.vscode/extensions/github.codespaces-1.17.3: github.codespaces
+2025-02-02 17:47:50.550 [info] Renamed to /home/schule/.vscode/extensions/github.codespaces-1.17.3
+2025-02-02 17:47:50.616 [info] Extension installed successfully: github.codespaces vscode-userdata:/home/schule/.vscode/extensions/extensions.json
+2025-02-02 17:47:50.651 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/schule/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

@@ -1,0 +1,15 @@
+2025/02/02-19:00:55.930 fa1e Reusing MANIFEST /home/schule/snap/chromium/common/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/02-19:00:55.930 fa1e Recovering log #37
+2025/02/02-19:00:55.933 fa1e Reusing old log /home/schule/snap/chromium/common/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000037.log 
+2025/02/02-19:01:28.095 fa1e Level-0 table #42: started
+2025/02/02-19:01:28.118 fa1e Level-0 table #42: 346659 bytes OK
+2025/02/02-19:01:28.120 fa1e Delete type=0 #37
+2025/02/02-19:01:28.121 fa1e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/02/02-19:01:28.122 fa1e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x15\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4602 : 1
+2025/02/02-19:01:28.122 fa1e Compacting 1@1 + 1@2 files
+2025/02/02-19:01:28.130 fa1e Generated table #43@1: 300 keys, 43890 bytes
+2025/02/02-19:01:28.131 fa1e Compacted 1@1 + 1@2 files => 43890 bytes
+2025/02/02-19:01:28.131 fa1e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/02-19:01:28.132 fa1e Delete type=2 #42
+2025/02/02-19:01:28.132 fa1e Delete type=2 #39
+2025/02/02-19:01:28.132 fa1e Manual compaction at level-1 from '\x00\x15\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4602 : 1 .. (end); will stop at (end)

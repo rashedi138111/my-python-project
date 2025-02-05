@@ -1,0 +1,11 @@
+[Client I] GitHub Codespaces version 1.17.3
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:2d9c I] initializing
+[Client:extension:2d9c:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2025-02-02T18:12:12.678Z] Internal initialization of dev container support package...
+
+[Client I] Jupyter API registered? false

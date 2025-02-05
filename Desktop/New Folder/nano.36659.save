@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وب‌سایت ساده</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>خوش آمدید به وب‌سایت من!</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>درباره من</h2>
+            <p>این یک وب‌سایت ساده است که برای یادگیری HTML و CSS ساخته شده است.</p>
+        </section>
+
+        <section>
+            <h2>تماس با من</h2>
+            <p>ایمیل: <a href="mailto:example@example.com">example@example.com</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>تمامی حقوق محفوظ است &copy; 2025</p>
+    </footer>
+</body>
+</html>

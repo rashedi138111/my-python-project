@@ -1,0 +1,74 @@
+2025-02-02 17:45:39.115 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-02 17:45:39.867 [info] [Info  - 5:45:39 PM] (60651) Server root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:45:39.867 [info] [Info  - 5:45:39 PM] (60651) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-02 17:45:39.904 [info] [Info  - 5:45:39 PM] (60651) Starting service instance "<default>"
+2025-02-02 17:45:39.949 [info] [Info  - 5:45:39 PM] (60651) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:45:39.950 [info] [Info  - 5:45:39 PM] (60651) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:45:39.951 [info] [Info  - 5:45:39 PM] (60651) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:45:39.951 [info] [Info  - 5:45:39 PM] (60651) Auto-excluding **/node_modules
+2025-02-02 17:45:39.952 [info] [Info  - 5:45:39 PM] (60651) Auto-excluding **/__pycache__
+2025-02-02 17:45:39.952 [info] [Info  - 5:45:39 PM] (60651) Auto-excluding **/.*
+2025-02-02 17:45:39.984 [info] [Info  - 5:45:39 PM] (60651) Assuming Python version 3.12.3.final.0
+2025-02-02 17:45:40.093 [info] [Error - 5:45:40 PM] (60651) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:45:40.095 [info] [Info  - 5:45:40 PM] (60651) No source files found.
+2025-02-02 17:45:40.162 [info] [Info  - 5:45:40 PM] (60651) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:45:40.162 [info] [Info  - 5:45:40 PM] (60651) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:45:40.162 [info] [Info  - 5:45:40 PM] (60651) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:45:40.163 [info] [Info  - 5:45:40 PM] (60651) Auto-excluding **/node_modules
+2025-02-02 17:45:40.163 [info] [Info  - 5:45:40 PM] (60651) Auto-excluding **/__pycache__
+2025-02-02 17:45:40.163 [info] [Info  - 5:45:40 PM] (60651) Auto-excluding **/.*
+2025-02-02 17:45:40.196 [info] [Info  - 5:45:40 PM] (60651) Assuming Python version 3.12.3.final.0
+2025-02-02 17:45:40.255 [info] [Error - 5:45:40 PM] (60651) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:45:40.255 [info] [Info  - 5:45:40 PM] (60651) No source files found.
+2025-02-02 17:45:40.704 [info] [Info  - 5:45:40 PM] (60651) Background analysis(1) root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:45:40.708 [info] [Info  - 5:45:40 PM] (60651) Background analysis(1) started
+2025-02-02 17:46:12.405 [info] [Info  - 5:46:12 PM] Server process exited successfully
+2025-02-02 17:46:13.291 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-02 17:46:13.991 [info] [Info  - 5:46:13 PM] (60750) Server root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:46:13.992 [info] [Info  - 5:46:13 PM] (60750) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-02 17:46:14.016 [info] [Info  - 5:46:14 PM] (60750) Starting service instance "<default>"
+2025-02-02 17:46:14.093 [info] [Info  - 5:46:14 PM] (60750) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:46:14.093 [info] [Info  - 5:46:14 PM] (60750) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:46:14.094 [info] [Info  - 5:46:14 PM] (60750) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:46:14.095 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/node_modules
+2025-02-02 17:46:14.095 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/__pycache__
+2025-02-02 17:46:14.096 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/.*
+2025-02-02 17:46:14.127 [info] [Info  - 5:46:14 PM] (60750) Assuming Python version 3.12.3.final.0
+2025-02-02 17:46:14.202 [info] [Error - 5:46:14 PM] (60750) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:46:14.203 [info] [Info  - 5:46:14 PM] (60750) No source files found.
+2025-02-02 17:46:14.251 [info] [Info  - 5:46:14 PM] (60750) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:46:14.251 [info] [Info  - 5:46:14 PM] (60750) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:46:14.252 [info] [Info  - 5:46:14 PM] (60750) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:46:14.252 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/node_modules
+2025-02-02 17:46:14.252 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/__pycache__
+2025-02-02 17:46:14.253 [info] [Info  - 5:46:14 PM] (60750) Auto-excluding **/.*
+2025-02-02 17:46:14.282 [info] [Info  - 5:46:14 PM] (60750) Assuming Python version 3.12.3.final.0
+2025-02-02 17:46:14.354 [info] [Error - 5:46:14 PM] (60750) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:46:14.354 [info] [Info  - 5:46:14 PM] (60750) No source files found.
+2025-02-02 17:46:14.782 [info] [Info  - 5:46:14 PM] (60750) Background analysis(1) root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:46:14.785 [info] [Info  - 5:46:14 PM] (60750) Background analysis(1) started
+2025-02-02 17:47:50.817 [info] [Info  - 5:47:50 PM] Server process exited successfully
+2025-02-02 17:47:51.909 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-02-02 17:47:52.651 [info] [Info  - 5:47:52 PM] (60817) Server root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:47:52.653 [info] [Info  - 5:47:52 PM] (60817) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-02-02 17:47:52.676 [info] [Info  - 5:47:52 PM] (60817) Starting service instance "<default>"
+2025-02-02 17:47:52.792 [info] [Info  - 5:47:52 PM] (60817) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:47:52.792 [info] [Info  - 5:47:52 PM] (60817) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:47:52.793 [info] [Info  - 5:47:52 PM] (60817) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:47:52.794 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/node_modules
+2025-02-02 17:47:52.794 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/__pycache__
+2025-02-02 17:47:52.795 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/.*
+2025-02-02 17:47:52.826 [info] [Info  - 5:47:52 PM] (60817) Assuming Python version 3.12.3.final.0
+2025-02-02 17:47:52.903 [info] [Error - 5:47:52 PM] (60817) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:47:52.905 [info] [Info  - 5:47:52 PM] (60817) No source files found.
+2025-02-02 17:47:52.961 [info] [Info  - 5:47:52 PM] (60817) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-02 17:47:52.961 [info] [Info  - 5:47:52 PM] (60817) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2025-02-02 17:47:52.962 [info] [Info  - 5:47:52 PM] (60817) No include entries specified; assuming /<default workspace root>
+2025-02-02 17:47:52.962 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/node_modules
+2025-02-02 17:47:52.962 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/__pycache__
+2025-02-02 17:47:52.962 [info] [Info  - 5:47:52 PM] (60817) Auto-excluding **/.*
+2025-02-02 17:47:52.992 [info] [Info  - 5:47:52 PM] (60817) Assuming Python version 3.12.3.final.0
+2025-02-02 17:47:53.053 [info] [Error - 5:47:53 PM] (60817) File or directory "/<default workspace root>" does not exist.
+2025-02-02 17:47:53.054 [info] [Info  - 5:47:53 PM] (60817) No source files found.
+2025-02-02 17:47:53.496 [info] [Info  - 5:47:53 PM] (60817) Background analysis(1) root directory: file:///home/schule/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-02-02 17:47:53.499 [info] [Info  - 5:47:53 PM] (60817) Background analysis(1) started

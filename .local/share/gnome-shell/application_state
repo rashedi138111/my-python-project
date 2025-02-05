@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-language-selector.desktop" score="43" last-seen="1738332187"/>
+    <application id="org.gnome.Evince.desktop" score="4" last-seen="1738151016"/>
+    <application id="firmware-updater_firmware-updater-app.desktop" score="2" last-seen="1738329813"/>
+    <application id="gnome-session-properties.desktop" score="4" last-seen="1738330366"/>
+    <application id="chatgpt-desktop_chatgpt-desktop.desktop" score="24" last-seen="1738350556"/>
+    <application id="org.gnome.Cheese.desktop" score="2" last-seen="1738151102"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="3" last-seen="1738329717"/>
+    <application id="chromium_chromium.desktop" score="1024" last-seen="1738520137"/>
+    <application id="snap-store_snap-store.desktop" score="26" last-seen="1738513805"/>
+    <application id="org.kde.krita.desktop" score="26" last-seen="1738330297"/>
+    <application id="org.gnome.PowerStats.desktop" score="1" last-seen="1738329732"/>
+    <application id="thunderbird_thunderbird.desktop" score="32" last-seen="1738361058"/>
+    <application id="org.gnome.eog.desktop" score="7" last-seen="1738245785"/>
+    <application id="org.gnome.Nautilus.desktop" score="73" last-seen="1738514454"/>
+    <application id="snapd-desktop-integration_snapd-desktop-integration.desktop" score="0" last-seen="1738230488"/>
+    <application id="org.gnome.Tecla.desktop" score="47" last-seen="1738514459"/>
+    <application id="org.gnome.seahorse.Application.desktop" score="1" last-seen="1738329776"/>
+    <application id="update-manager.desktop" score="9" last-seen="1738244341"/>
+    <application id="org.gnome.Terminal.desktop" score="4424" last-seen="1738517313"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="2" last-seen="1738513491"/>
+    <application id="firefox_firefox.desktop" score="13387" last-seen="1738516975"/>
+    <application id="org.gnome.TextEditor.desktop" score="2" last-seen="1738414080"/>
+    <application id="geany.desktop" score="30" last-seen="1738512134"/>
+    <application id="code.desktop" score="497" last-seen="1738520131"/>
+    <application id="org.gnome.Settings.desktop" score="185" last-seen="1738510902"/>
+  </context>
+</application-state>

@@ -1,0 +1,11 @@
+================================================================================
+SESSION: 31 Jan 2025 14:23:44 +0100. Executing /usr/bin/krita
+
+Krita Version: 5.2.2, Qt version compiled: 5.15.13, loaded: 5.15.13. Process ID: 10852
+-- -- -- -- -- -- -- --
+31 Jan 2025 14:23:44 +0100: Style: fusion. Available styles: Windows, Fusion
+31 Jan 2025 14:23:45 +0100: Creating database from scratch (database didn't exist, new schema version: 0.0.17).
+31 Jan 2025 14:24:18 +0100: Created image "Unbenannt", 2480 * 3508 pixels, 300 dpi. Color model: 8-bit Ganzzahl pro Kanal RGB/Alpha (sRGB-elle-V2-srgbtrc.icc). Layers: 2
+31 Jan 2025 14:29:18 +0100: Importing image/png to application/x-krita. Location: /home/schule/Bilder/heyalter_bild.png. Real location: /home/schule/Bilder/heyalter_bild.png. Batchmode: 0
+31 Jan 2025 14:29:18 +0100: Loaded image from image/png. Size: 2360 * 1349 pixels, 1 dpi. Color model: 8-bit Ganzzahl pro Kanal RGB/Alpha (sRGB-elle-V2-srgbtrc.icc). Layers: 2
+31 Jan 2025 14:31:38 +0100: CLOSING SESSION

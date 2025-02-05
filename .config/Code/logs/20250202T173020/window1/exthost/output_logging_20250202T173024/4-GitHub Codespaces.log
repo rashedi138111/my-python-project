@@ -1,0 +1,28 @@
+[Client I] GitHub Codespaces version 1.17.3
+[Client I] isRunningInWeb: "false"
+[Client V] Initializing authentication
+[Authentication I] Did not find existing login session
+[Authentication I] Did not find existing login session
+[API I] Signing out due to unsuccessful sign in attempt
+[Authentication I] Did not find existing login session
+[API E] featureFlags: listCodespaces error. No response received.
+[Client:extension:20bb I] initializing
+[Client:extension:20bb:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2025-02-02T16:47:51.645Z] Internal initialization of dev container support package...
+
+[Client I] Jupyter API registered? false
+[Command:Connect I] Decorator starting: ErrorNotification
+[Command:Connect I] Decorator starting: Telemetry
+[Authentication I] Successfully signed in
+[Authentication V] Already signed in
+[Authentication V] Already signed in
+[Authentication V] Already signed in
+[API I] Successfully signed in
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:20bb:resolver V] disposing reason: 'vscode disposed the resolver', disposing 1 objects

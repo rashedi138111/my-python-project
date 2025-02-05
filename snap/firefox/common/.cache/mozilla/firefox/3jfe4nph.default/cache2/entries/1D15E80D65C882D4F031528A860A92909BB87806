@@ -1,0 +1,224 @@
+define("discourse-mf", ["@messageformat/runtime/messages", "@messageformat/runtime", "@messageformat/runtime/lib/cardinals"], function (_messages, _runtime, _cardinals) {
+  "use strict";
+
+  const msgData = {
+    en: {
+      "user.messages.read_more_group_pm_MF": d => (0, _runtime.select)(d.HAS_UNREAD_AND_NEW, {
+        true: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>",
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>"
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: " and <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> message remaining, or browse other messages in " + d.groupLink,
+          other: " and <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> messages remaining, or browse other messages in " + d.groupLink
+        }) + "\n  ",
+        false: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> message remaining, or browse other messages in " + d.groupLink,
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> messages remaining, or browse other messages in " + d.groupLink
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> message remaining, or browse other messages in " + d.groupLink,
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/group/" + d.groupName + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> messages remaining, or browse other messages in " + d.groupLink
+        }) + "\n  ",
+        other: ""
+      }) + "\n",
+      "user.messages.read_more_personal_pm_MF": d => (0, _runtime.select)(d.HAS_UNREAD_AND_NEW, {
+        true: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>",
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>"
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: " and <a href=\"" + d.basePath + "/u/" + d.username + "/messages/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> message remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>",
+          other: " and <a href=\"" + d.basePath + "/u/" + d.username + "/messages/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> messages remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>"
+        }) + "\n  ",
+        false: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> message remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>",
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> messages remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>"
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/u/" + d.username + "/messages/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> message remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>",
+          other: "There are <a href=\"" + d.basePath + "/u/" + d.username + "/messages/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> messages remaining, or browse other <a href=\"" + d.basePath + "/u/" + d.username + "/messages\">personal messages</a>"
+        }) + "\n  ",
+        other: ""
+      }) + "\n",
+      "logs_error_rate_notice.reached_hour_MF": d => "<b>" + d.relativeAge + "</b> ‚Äì <a href=\"" + d.url + "\" target=\"_blank\">" + (0, _runtime.plural)(d.rate, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.rate, 0) + " error/hour",
+        other: (0, _runtime.number)("en", d.rate, 0) + " errors/hour"
+      }) + "</a> reached site setting limit of " + (0, _runtime.plural)(d.limit, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.limit, 0) + " error/hour",
+        other: (0, _runtime.number)("en", d.limit, 0) + " errors/hour"
+      }) + ".\n",
+      "logs_error_rate_notice.reached_minute_MF": d => "<b>" + d.relativeAge + "</b> ‚Äì <a href=\"" + d.url + "\" target=\"_blank\">" + (0, _runtime.plural)(d.rate, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.rate, 0) + " error/minute",
+        other: (0, _runtime.number)("en", d.rate, 0) + " errors/minute"
+      }) + "</a> reached site setting limit of " + (0, _runtime.plural)(d.limit, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.limit, 0) + " error/minute",
+        other: (0, _runtime.number)("en", d.limit, 0) + " errors/minute"
+      }) + ".\n",
+      "logs_error_rate_notice.exceeded_hour_MF": d => "<b>" + d.relativeAge + "</b> ‚Äì <a href=\"" + d.url + "\" target=\"_blank\">" + (0, _runtime.plural)(d.rate, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.rate, 0) + " error/hour",
+        other: (0, _runtime.number)("en", d.rate, 0) + " errors/hour"
+      }) + "</a> exceeded site setting limit of " + (0, _runtime.plural)(d.limit, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.limit, 0) + " error/hour",
+        other: (0, _runtime.number)("en", d.limit, 0) + " errors/hour"
+      }) + ".\n",
+      "logs_error_rate_notice.exceeded_minute_MF": d => "<b>" + d.relativeAge + "</b> ‚Äì <a href=\"" + d.url + "\" target=\"_blank\">" + (0, _runtime.plural)(d.rate, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.rate, 0) + " error/minute",
+        other: (0, _runtime.number)("en", d.rate, 0) + " errors/minute"
+      }) + "</a> exceeded site setting limit of " + (0, _runtime.plural)(d.limit, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.limit, 0) + " error/minute",
+        other: (0, _runtime.number)("en", d.limit, 0) + " errors/minute"
+      }) + ".\n",
+      "summary.description_time_MF": d => "There " + (0, _runtime.plural)(d.replyCount, 0, _cardinals.en, {
+        one: "is <b>" + (0, _runtime.number)("en", d.replyCount, 0) + "</b> reply",
+        other: "are <b>" + (0, _runtime.number)("en", d.replyCount, 0) + "</b> replies"
+      }) + " with an estimated read time of <b>" + (0, _runtime.plural)(d.readingTime, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.readingTime, 0) + " minute",
+        other: (0, _runtime.number)("en", d.readingTime, 0) + " minutes"
+      }) + "</b>.\n",
+      "topic.read_more_MF": d => (0, _runtime.select)(d.HAS_UNREAD_AND_NEW, {
+        true: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>",
+          other: "There are <a href=\"" + d.basePath + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a>"
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: " and <a href=\"" + d.basePath + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> topic remaining,",
+          other: " and <a href=\"" + d.basePath + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> topics remaining,"
+        }) + "\n  ",
+        false: "\n    " + (0, _runtime.plural)(d.UNREAD, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> topic remaining,",
+          other: "There are <a href=\"" + d.basePath + "/unread\">" + (0, _runtime.number)("en", d.UNREAD, 0) + " unread</a> topics remaining,"
+        }) + "\n    " + (0, _runtime.plural)(d.NEW, 0, _cardinals.en, {
+          "0": "",
+          one: "There is <a href=\"" + d.basePath + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> topic remaining,",
+          other: "There are <a href=\"" + d.basePath + "/new\">" + (0, _runtime.number)("en", d.NEW, 0) + " new</a> topics remaining,"
+        }) + "\n  ",
+        other: ""
+      }) + "\n" + (0, _runtime.select)(d.HAS_CATEGORY, {
+        true: " or browse other topics in " + d.categoryLink,
+        false: " or <a href=\"" + d.basePath + "/latest\">view latest topics</a>",
+        other: ""
+      }) + "\n",
+      "flagging.delete_confirm_MF": d => "You are about to delete " + (0, _runtime.plural)(d.POSTS, 0, _cardinals.en, {
+        one: "<b>" + (0, _runtime.number)("en", d.POSTS, 0) + "</b> post",
+        other: "<b>" + (0, _runtime.number)("en", d.POSTS, 0) + "</b> posts"
+      }) + " and " + (0, _runtime.plural)(d.TOPICS, 0, _cardinals.en, {
+        one: "<b>" + (0, _runtime.number)("en", d.TOPICS, 0) + "</b> topic",
+        other: "<b>" + (0, _runtime.number)("en", d.TOPICS, 0) + "</b> topics"
+      }) + " from this user, remove their account, block signups from their IP address <b>" + d.ip_address + "</b>, and add their email address <b>" + d.email + "</b> to a permanent block list. Are you sure this user is really a spammer?\n",
+      posts_likes_MF: d => (0, _runtime.plural)(d.count, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.count, 0) + " reply,",
+        other: (0, _runtime.number)("en", d.count, 0) + " replies,"
+      }) + (0, _runtime.select)(d.ratio, {
+        low: " high like to post ratio,",
+        med: " very high like to post ratio,",
+        high: " extremely high like to post ratio,",
+        other: ""
+      }) + " jump to the first or last post‚Ä¶\n",
+      "chat.mention_warning.groups.too_many_members_MF": d => (0, _runtime.plural)(d.groupCount, 0, _cardinals.en, {
+        "1": "\n          " + (0, _runtime.select)(d.isAdmin, {
+          true: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning @" + d.group1 + " exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning @" + d.group1 + " exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          false: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning @" + d.group1 + " exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning @" + d.group1 + " exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          other: ""
+        }) + "\n        ",
+        "2": "\n          " + (0, _runtime.select)(d.isAdmin, {
+          true: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning @" + d.group1 + " and @" + d.group2 + " exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning @" + d.group1 + " and @" + d.group2 + " exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          false: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning @" + d.group1 + " and @" + d.group2 + " exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning @" + d.group1 + " and @" + d.group2 + " exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          other: ""
+        }) + "\n        ",
+        other: "\n          " + (0, _runtime.select)(d.isAdmin, {
+          true: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning these " + d.groupCount + " groups exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning these " + d.groupCount + " groups exceeds the <a href=\"" + d.siteSettingUrl + "\" target=\"_blank\">notification limit</a> of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          false: "\n              " + (0, _runtime.plural)(d.notificationLimit, 0, _cardinals.en, {
+            one: "Mentioning these " + d.groupCount + " groups exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " user.",
+            other: "Mentioning these " + d.groupCount + " groups exceeds the notification limit of " + (0, _runtime.number)("en", d.notificationLimit, 0) + " users."
+          }) + "\n            ",
+          other: ""
+        }) + "\n        "
+      }) + "\n",
+      "chat.create_channel.auto_join_users.warning_multiple_groups_MF": d => (0, _runtime.plural)(d.groupCount, 0, _cardinals.en, {
+        one: "\n          " + (0, _runtime.plural)(d.userCount, 0, _cardinals.en, {
+          one: "Automatically add " + d.userCount + " user from " + d.groupName + " and " + d.groupCount + " other group?",
+          other: "Automatically add " + d.userCount + " users from " + d.groupName + " and " + d.groupCount + " other group?"
+        }) + "\n        ",
+        other: "\n          " + (0, _runtime.plural)(d.userCount, 0, _cardinals.en, {
+          one: "Automatically add " + d.userCount + " user from " + d.groupName + " and " + d.groupCount + " other groups?",
+          other: "Automatically add " + d.userCount + " users from " + d.groupName + " and " + d.groupCount + " other groups?"
+        }) + "\n        "
+      }) + "\n",
+      "admin.user.penalty_history_MF": d => "In the past 6 months this user has been <b>suspended " + (0, _runtime.plural)(d.SUSPENDED, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.SUSPENDED, 0) + " time",
+        other: (0, _runtime.number)("en", d.SUSPENDED, 0) + " times"
+      }) + "</b> and <b>silenced " + (0, _runtime.plural)(d.SILENCED, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.SILENCED, 0) + " time",
+        other: (0, _runtime.number)("en", d.SILENCED, 0) + " times"
+      }) + "</b>.",
+      "admin.user.delete_all_posts_confirm_MF": d => "You are about to delete " + (0, _runtime.plural)(d.POSTS, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.POSTS, 0) + " post",
+        other: (0, _runtime.number)("en", d.POSTS, 0) + " posts"
+      }) + " and " + (0, _runtime.plural)(d.TOPICS, 0, _cardinals.en, {
+        one: (0, _runtime.number)("en", d.TOPICS, 0) + " topic",
+        other: (0, _runtime.number)("en", d.TOPICS, 0) + " topics"
+      }) + ". Are you sure?\n"
+    }
+  };
+  const messages = new _messages.default(msgData, "en");
+  messages.defaultLocale = "en";
+  globalThis.I18n._mfMessages = messages;
+});
+require("discourse-mf");
+À…ãPµú      güùgüùG‘tEiÅ"C   y    O^partitionKey=%28https%2Cubuntu.com%29,:https://discourse.ubuntu.com/extra-locales/mf?v=362080e67988b926ca32ae81c159baba necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Accept */* response-head HTTP/2 200 
+date: Sun, 02 Feb 2025 16:27:24 GMT
+content-type: application/javascript; charset=utf-8
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-discourse-route: extra_locales/show
+vary: Accept
+cross-origin-opener-policy: same-origin-allow-popups
+cache-control: max-age=31556952, public, immutable
+x-request-id: 36c700996cd7f4eb8352372e0fd004ce
+x-runtime: 0.178387
+strict-transport-security: max-age=15724800; includeSubDomains
+X-Firefox-Spdy: h2
+ original-response-headers date: Sun, 02 Feb 2025 16:27:24 GMT
+content-type: application/javascript; charset=utf-8
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+x-download-options: noopen
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-discourse-route: extra_locales/show
+vary: Accept
+cross-origin-opener-policy: same-origin-allow-popups
+cache-control: max-age=31556952, public, immutable
+set-cookie: _forum_session=rGWV%2BN8DheWENnIcLrIOCYT9MlmzGBR1U8TnYPqyP1p0Vfm4ULh40vtlTVzI7I%2F1YRaENrNbIOkPilcZKHAexgjsSDDr8YDADYzAERj1EAYaVVnipYAwpNZhUyeVaAQpE3pWMgEi0lrdFW59yXg5gZ89gKXSe5kfdwACoOaoQvxZhnmGcpmbvGK0mHqX3vcqNzRVguPDNIGakZt7JTCAfqCV5QCPcmPyRjxLP3ByxjJt1NUUIWig%2ByxeDsRqBgEHMF7C2DTvEXFPV3eY9uACsb%2B0lMpPkHR%2BrWPbCosK--xWZZau%2FicEDxRaPV--bQj5frf00LYASTdOKFq3hA%3D%3D; path=/; secure; HttpOnly; SameSite=Lax
+x-request-id: 36c700996cd7f4eb8352372e0fd004ce
+x-runtime: 0.178387
+strict-transport-security: max-age=15724800; includeSubDomains
+X-Firefox-Spdy: h2
+ ctid 2 uncompressed-len 0 net-response-time-onstart 497 net-response-time-onstop 500   @†
